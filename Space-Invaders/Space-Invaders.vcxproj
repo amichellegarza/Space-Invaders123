@@ -148,6 +148,7 @@
       <AdditionalHeaderUnitDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </AdditionalHeaderUnitDependencies>
     </ClCompile>
+    <ClCompile Include="Source\AnimationSystem\AnimationService.cpp" />
     <ClCompile Include="Source\AnimationSystem\AnimationSystem.cpp" />
     <ClCompile Include="Source\Bullet\BulletConfig.cpp" />
     <ClCompile Include="Source\Bullet\BulletController.cpp" />
@@ -204,6 +205,7 @@
     <ClCompile Include="Source\UIService\UIService.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header\AnimationSystem\AnimationService.h" />
     <ClInclude Include="Header\AnimationSystem\AnimationSystem.h" />
     <ClInclude Include="Header\AnimationSystem\AnimationSystemConfig.h" />
     <ClInclude Include="Header\AnimationSystem\AnimationSystemConfigData.h" />
