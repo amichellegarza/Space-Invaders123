@@ -194,6 +194,7 @@
     <ClCompile Include="Source\Time\TimeService.cpp" />
     <ClCompile Include="Source\UIService\GameplayUI\GameplayUIController.cpp" />
     <ClCompile Include="Source\UIService\MainMenu\MainMenuController.cpp" />
+    <ClCompile Include="Source\UIService\SplashScreen\SplashScreenUIController.cpp" />
     <ClCompile Include="Source\UIService\UIElement\UIView.cpp" />
     <ClCompile Include="Source\UIService\UIElement\ImageView.cpp" />
     <ClCompile Include="Source\UIService\UIElement\TextView.cpp" />
@@ -249,6 +250,7 @@
     <ClInclude Include="Header\Sound\SoundService.h" />
     <ClInclude Include="Header\Time\TimeService.h" />
     <ClInclude Include="Header\UI\GameplayUI\GameplayUIController.h" />
+    <ClInclude Include="Header\UI\SplashScreen\SplashScreenUIController.h" />
     <ClInclude Include="Header\UI\UIElement\ButtonView.h" />
     <ClInclude Include="Header\UI\UIElement\ImageView.h" />
     <ClInclude Include="Header\UI\MainMenu\MainMenuUIController.h" />
